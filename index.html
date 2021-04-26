@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+    <title>My CSS Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">News</a></li>
+            <li><a href="#home">Contact</a></li>
+            <li><a href="#home">Instagram</a></li>
+            <li><a href="#home">Facebook</a></li>
+            <li><a href="#home">About</a></li>
+            <li class="topnav-right"><a href="#home">Sign Up</a></li>
+            <li class="topnav-right"><a href="#home">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);"
+            onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section1gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="marginLeftSide-col">
+                    <h1 class="largeHeader">Hello</h1>
+                    <h1 class="largeHeader">Everyone</h1>
+                </div>
+                <form>
+                    <div class="marginLeftSide-col">
+                        <h2>&#8226 <span>Username</span></h2>
+                        <input class="userInputBox" name="username" type="text"
+                        placeholder="Username">
+                        <h2>&#8226 <span>Password</span></h2>
+                        <input class="userInputBox" name="password" type="text" 
+                        placeholder="Password">
+                        <hr id="belowInputField">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightSideColumn">
+                    <div class="imageContainer">
+                    <img id="picOfMe" src="/IcreekSelfie.JPG" alt="pic of me">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="section2Header">This is a place holder for the Header</h1>
+    </header>
+    <div class="container">
+        <div class="imagesInRows">
+            <div class="row">
+                <div class="col-4">
+                 <div class="box">
+                     <div class="thumbnails">
+                        <img id="chatImage" src="chat_image.jpg">
+                    </div>
+                    <label>Chat with Me</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quod veniam eaque, quae illum dolorum et similique dolor consectetur labore?</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="thumbnails">
+                        <img id="learnImage" src="learn_image.jpg">
+                    </div>
+                    <label>Learn</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quod veniam eaque, quae illum dolorum et similique dolor consectetur labore?</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="thumbnails">
+                        <img id="friendsImage" src="friends_image.jpg">
+                    </div>
+                    <label>Make Friendships</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quod veniam eaque, quae illum dolorum et similique dolor consectetur labore?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+
+</html>
