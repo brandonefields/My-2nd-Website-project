@@ -42,6 +42,23 @@ p {
     content: "";
 }
 
+button {
+    font-family: inherit;
+    padding: 15px 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(50, 47, 44);
+    background-color: rgb(230, 210, 187);
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learnMore {
+    display: block;
+    margin: auto;
+}
+
 
 
 
@@ -76,6 +93,7 @@ p {
 }
 
 div.box {
+    border-radius: 7px;
     text-align: center;
     margin: 24px;
     padding: 36px 24px 40px 24px;
@@ -184,6 +202,7 @@ h1.largeHeader {
 }
 
 h1.section2Header {
+    text-decoration: underline;
     font-family: 'Trocchi', serif;
     color: rgb(50, 47, 44);
     font-size: 50px;
@@ -210,6 +229,13 @@ h1.section2Header {
         right: 0;
     }
 
+    div.box {
+        padding: 5px;
+        display:block;
+    }
+
+
+
     ul.topnav.responsive {
         position: relative;
     }
@@ -227,8 +253,9 @@ h1.section2Header {
     not overlap the other column. instead the image is moved below.
     which is called stacking. */
 
-    .col-6 {
+    .col-6, .col-4{
         width: 100%;
+        margin: 0;
     }
 
     div.leftSide-col,
@@ -247,4 +274,6 @@ h1.section2Header {
         overflow: hidden;
     }
    
+
+
 }

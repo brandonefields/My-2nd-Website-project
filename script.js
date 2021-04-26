@@ -9,3 +9,8 @@ function dropdownMenu() {
         dropdownIcon.className = "topnav";
     }
 }
+
+function bottomButton() {
+    var bottomButtonOnSite = document.getElementById("theButton");
+    
+}
